@@ -1,0 +1,230 @@
+
+  .status-2 {
+    background-color: #008000;
+  }
+  
+  .status-4 {
+    background-color: #AB0000;
+    color:white;
+  
+  }
+  
+  .status-3 {
+    background-color: #D88100;
+  }
+
+  .order-badge {
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    max-width: 210px;
+  }
+
+  .table-info, .table-info > td, .table-info > th {
+    background-color: transparent;
+}
+.order-container {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 2px 1px -1px rgb(0 0 0 / 12%), 0 1px 1px 0 rgb(0 0 0 / 14%);
+  border-radius: 5px;
+}
+.order-container .deviceno {
+  background-color: #393939;
+  width: 40px;
+  height: 29px;
+  max-width: 40px;
+  overflow: hidden;;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  display: inline-block;
+  padding: 4px;
+}
+
+.order-container .dateordered{
+  line-height: 29px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+
+.order-container{
+  background-color: white; 
+  border:3px solid #F3F3F3;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+}
+
+.order-container .order-header{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  padding: 8px !important;
+  height: 40px;
+
+}
+
+.order-dashboard .col-md-12, .order-dashboard  .col-md-6, .order-dashboard  .col-md-2, .order-dashboard  .col-md-11, .order-dashboard  .col-md-4, .order-dashboard  .col-md-3, .order-dashboard  .col-sm-3{
+ padding:0px
+
+}
+
+.order-container .order-header div{
+  display: inline-block;
+  color: white;
+}
+
+.order-container .order-header .edit-image{
+  width: 20px;
+}
+
+.order-container .order-content{
+  height: 130px;
+  position: relative;
+  background-image: linear-gradient(to right bottom, #ffffff, #fcfcfc, #f9f8f8, #f6f4f5, #f3f1f1);
+}
+
+.order-container .table-info{
+  line-height: 45px;
+  padding-top:5px;
+  height: 70px;
+}
+
+.order-container .table-info span{
+  font-size: 60px;
+  
+}
+
+
+.order-container .alarm-image{
+  position: relative;
+  text-align: right;
+  padding: 0px;
+  font-size: 15px;
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+.order-container .alarm-image img{
+  width: 30px;
+}
+
+
+
+
+.status1 .order-header{
+  background-color: #778899;
+
+}
+
+.status2 .order-header{
+  background-color: #008000;
+}
+
+.status4 .order-header{
+  background-color: #AB0000;
+
+}
+
+.status3 .order-header{
+  background-color: #D88100;
+}
+
+
+
+.order-dashboard  .margin-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad-10{
+  padding:10px
+}
+
+.order-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 50px;
+  background-color: #1f262d;
+  padding: 0px;
+}
+
+
+.order-footer .footer-info{
+  line-height: 50px;
+  padding-right: 30px;
+}
+
+.order-footer .footer-info img{
+  width: 35px;
+}
+
+
+.keypad .btn{
+  width: 62px;
+  height: 62px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+.modal-footer .row{
+  width: 100% !important;
+}
+.modal-footer .btn-secondary{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 52px;
+  font-size: 16px;
+}
+
+
+.keypad .numericValue{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 310px;
+  border-radius: 5px;
+  color: black;
+  background: transparent;
+  border: 1px solid silver;
+}
+.keypad .silver-background{
+  background-color:dimgray;
+  border: 1px solid darkgray;
+}
+
+.order-dashboard  .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.modal-content{
+  width: 350px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#interactive {
+  width: 100%;
+  height: 350px;
+}
+
+#interactive video{
+  width: 100%;
+}

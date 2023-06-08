@@ -1,0 +1,422 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+html, body{
+  background-color: #F3F3F3;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+.App-header {
+  background-color: #282c34;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Layout */
+
+ .ui.menu {
+  border-radius: 0;
+  border-width: 0 1px 0 0;
+  box-shadow: none;
+  margin: 0;
+  width: 150px !important ;
+  overflow: hidden;
+  will-change: transform;
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  display: inline-flex !important; 
+}
+
+.content{
+  width: calc(100% - 180px);
+  display: inline-flex;
+  margin-left:20px;
+
+}
+
+.fill-parent{
+  width: 85vw;
+
+}
+.w-200{
+  width: 200px;
+}
+
+.w-300{
+  width: 300px;
+}
+
+
+.w-600{
+  width: 600px;
+}
+
+/* 
+
+.ordernnumber span{
+  color: #008000;
+}
+.status4 .ordernnumber .number, .status4 .ordernnumber span{
+  color:#A52A2A;
+}
+
+.status1 .ordernnumber .number, .status1 .ordernnumber span{
+  color:#778899;
+}
+
+.status2 .ordernnumber .number, .status2 .ordernnumber span{
+  color:#008000;
+}
+
+.status3 .ordernnumber .number, .status3 .ordernnumber span{
+  color:#FF8C00;
+}
+
+.status3 .ordernnumber .number, .status3 .ordernnumber span{
+  color:#D2691E;
+}
+
+.ordernnumber .number{
+  background-color: transparent;
+  padding: 0px;
+  display: block;
+  border: 0px;
+  text-align: center;
+  font-size: 50px;
+  color:#008000;
+  outline: none;
+
+  height: 80px;
+
+  
+}
+
+
+
+
+
+.status1 .tablenumber .no{
+ display: none;
+
+}
+
+.status4 .tablenumber, .status2 .tablenumber, .status3 .tablenumber{
+  color:white;
+ 
+ }
+
+
+
+
+.tablenumber{
+  display:inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;;
+  position: relative;
+
+}
+
+
+.tablenumber .no{
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 0px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.tablenumber .time{
+  display: block;
+  position: relative;
+  text-align: right;
+  padding: 0px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.status1  .tablenumber .deviceno{
+  color:white ;
+  display: block;
+}
+
+.tablenumber .deviceno{
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 0px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+} */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.keypad{
+  text-align: center;
+}
+.keypad .btn{
+  width: 62px;
+  height: 62px;
+  margin-bottom: 10px;
+}
+
+.keypad .numericValue{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.keypad .silver-background{
+  background-color:dimgray;
+  border: 1px solid darkgray;
+}
+
+.modal-dialog {
+    margin-right: auto;
+    margin-left: auto;
+    width: 370px;
+}
+
+
+
+
+.text-right{
+  text-align: right;
+}
+
+
+.margin-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Dashboard Start*/
+
+.order-container{
+  background-color: white; 
+  border:3px solid #F3F3F3;
+  display: inline-block;
+
+}
+
+.order-container .order-header{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  padding: 8px;
+  height: 40px;
+
+}
+
+.order-container .order-header div{
+  display: inline-block;
+  color: white;
+}
+
+.order-container .order-header .edit-image{
+  width: 20px;
+}
+
+.order-container .order-content{
+  height: 130px;
+  position: relative;
+}
+
+.order-container .table-info{
+  line-height: 45px;
+  padding-top:5px;
+  height: 70px;
+}
+
+.order-container .table-info span{
+  font-size: 60px;
+  
+}
+.order-container .deviceno{
+  background-color: #393939;
+  width: 29px;
+  height: 25px;
+  border-radius: 5px;
+  color:white;
+  text-align: center;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.order-container .alarm-image{
+  position: relative;
+  text-align: right;
+  padding: 0px;
+  font-size: 15px;
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+.order-container .alarm-image img{
+  width: 30px;
+}
+
+
+
+
+.status1 .order-header{
+  background-color: #778899;
+
+}
+
+.status2 .order-header{
+  background-color: #008000;
+}
+
+.status4 .order-header{
+  background-color: #AB0000;
+
+}
+
+.status3 .order-header{
+  background-color: #D88100;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  height: 50px;
+  background-color: #282c34;
+  position: absolute;
+}
+
+.footer .footer-info{
+  line-height: 50px;
+}
+
+.footer .footer-info img{
+  width: 35px;
+}
+
+.disabled-image{
+  opacity: .3;
+}
+
+ /* Start */
+.loading-container{
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  z-index: 9999;
+  background-color: rgba(225, 225, 231, 0.5);
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.loading-body{
+  width: 200px;
+  margin:auto;
+  top:20%;
+  position: relative;
+}
+
+.loading-body img{
+  width: 100px;;
+}
+
+.required{
+  color:red;
+}
+
+.login-form{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 400px;
+  padding: 10px;
+}
+
+.pad-20{
+  padding:20px;
+}
+.login-form label, .login-form input, .login-form button{
+  font-size:16px;
+}
+.inline-block{
+  display: inline-block;
+}
+.text-center{
+  text-align: center;
+} 
+
+.page-breadcrumb {
+  margin-bottom: 30px;
+}
+
+.p-button.p-button-icon-only.p-button-rounded {
+  height: 2rem;
+}
+.p-button.p-button-icon-only {
+  width: 2rem;
+}
